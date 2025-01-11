@@ -1,0 +1,62 @@
+[
+    {
+        "type": "point",
+        "x-axis": 120,
+        "y-axis": 300
+    },
+    {
+        "type": "distance",
+        "x-axis": 80,
+        "y-axis": 220,
+        "length": 75,
+        "angle": 300
+    },
+    {
+        "type": "point",
+        "x-axis": 400,
+        "y-axis": 100
+    },
+    {
+        "type": "distance",
+        "x-axis": 50,
+        "y-axis": 450,
+        "length": 90,
+        "angle": 135
+    },
+    {
+        "type": "point",
+        "x-axis": 30,
+        "y-axis": 60
+    },
+    {
+        "type": "distance",
+        "x-axis": 250,
+        "y-axis": 150,
+        "length": 60,
+        "angle": 200
+    },
+    {
+        "type": "point",
+        "x-axis": 320,
+        "y-axis": 480
+    },
+    {
+        "type": "distance",
+        "x-axis": 120,
+        "y-axis": 300,
+        "length": 100,
+        "angle": 90
+    },
+    {
+        "type": "point",
+        "x-axis": 450,
+        "y-axis": 250
+    },
+    {
+        "type": "distance",
+        "x-axis": 40,
+        "y-axis": 20,
+        "length": 50,
+        "angle": 60
+    }
+]
