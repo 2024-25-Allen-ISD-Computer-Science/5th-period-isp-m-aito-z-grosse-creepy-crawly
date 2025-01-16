@@ -1,0 +1,175 @@
+{
+    "lidar_test_data": [
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 0.0, "elevation": 0.0 },
+            "distance": 15.0
+        },
+        {
+            "start": { "x": 1.0, "y": 1.0, "z": 1.0 },
+            "direction": { "azimuth": 45.0, "elevation": 0.0 },
+            "distance": 15.0
+        },
+        {
+            "start": { "x": 2.0, "y": -1.0, "z": 0.5 },
+            "direction": { "azimuth": 120.0, "elevation": 0.0 },
+            "distance": 20.0
+        },
+        {
+            "start": { "x": -1.0, "y": -1.0, "z": 1.5 },
+            "direction": { "azimuth": 180.0, "elevation": 0.0 },
+            "distance": 12.5
+        },
+        {
+            "start": { "x": 0.5, "y": 0.5, "z": -0.5 },
+            "direction": { "azimuth": 45.0, "elevation": 35.26 },
+            "distance": 8.0
+        },
+        {
+            "start": { "x": -2.0, "y": 1.0, "z": 0.0 },
+            "direction": { "azimuth": 45.0, "elevation": 35.26 },
+            "distance": 4.5
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 0.0, "elevation": 90.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 90.0, "elevation": 0.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 180.0, "elevation": 90.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 270.0, "elevation": 0.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 45.0, "elevation": 45.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 135.0, "elevation": 45.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 225.0, "elevation": 45.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 0.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 315.0, "elevation": 45.0 },
+            "distance": 10.0
+        },
+        {
+            "start": { "x": 3.0, "y": 3.0, "z": 3.0 },
+            "direction": { "azimuth": 60.0, "elevation": 30.0 },
+            "distance": 25.0
+        },
+        {
+            "start": { "x": -3.0, "y": -3.0, "z": -3.0 },
+            "direction": { "azimuth": 240.0, "elevation": -30.0 },
+            "distance": 25.0
+        },
+        {
+            "start": { "x": 1.5, "y": -1.5, "z": 1.5 },
+            "direction": { "azimuth": 120.0, "elevation": 60.0 },
+            "distance": 18.0
+        },
+        {
+            "start": { "x": -1.5, "y": 1.5, "z": -1.5 },
+            "direction": { "azimuth": 300.0, "elevation": -60.0 },
+            "distance": 18.0
+        },
+
+        {
+            "start": { "x": 2.5, "y": 2.5, "z": 2.5 },
+            "direction": { "azimuth": 75.0, "elevation": 15.0 },
+            "distance": 22.0
+        },
+        {
+            "start": { "x": -2.5, "y": -2.5, "z": -2.5 },
+            "direction": { "azimuth": 225.0, "elevation": -15.0 },
+            "distance": 22.0
+        },
+        {
+            "start": { "x": 4.0, "y": 4.0, "z": 4.0 },
+            "direction": { "azimuth": 90.0, "elevation": 45.0 },
+            "distance": 30.0
+        },
+        {
+            "start": { "x": -4.0, "y": -4.0, "z": -4.0 },
+            "direction": { "azimuth": 270.0, "elevation": -45.0 },
+            "distance": 30.0
+        },
+        {
+            "start": { "x": 0.0, "y": 3.0, "z": 0.0 },
+            "direction": { "azimuth": 180.0, "elevation": 30.0 },
+            "distance": 12.0
+        },
+        {
+            "start": { "x": 3.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 90.0, "elevation": 30.0 },
+            "distance": 12.0
+        },
+        {
+            "start": { "x": -3.0, "y": 0.0, "z": 0.0 },
+            "direction": { "azimuth": 270.0, "elevation": -30.0 },
+            "distance": 12.0
+        },
+        {
+            "start": { "x": 0.0, "y": -3.0, "z": 0.0 },
+            "direction": { "azimuth": 0.0, "elevation": -30.0 },
+            "distance": 12.0
+        },
+        {
+            "start": { "x": 1.0, "y": 2.0, "z": 3.0 },
+            "direction": { "azimuth": 60.0, "elevation": 45.0 },
+            "distance": 20.0
+        },
+        {
+            "start": { "x": -1.0, "y": -2.0, "z": -3.0 },
+            "direction": { "azimuth": 240.0, "elevation": -45.0 },
+            "distance": 20.0
+        },
+        {
+            "start": { "x": 2.0, "y": 1.0, "z": 0.0 },
+            "direction": { "azimuth": 30.0, "elevation": 10.0 },
+            "distance": 15.0
+        },
+        {
+            "start": { "x": -2.0, "y": -1.0, "z": 0.0 },
+            "direction": { "azimuth": 210.0, "elevation": -10.0 },
+            "distance": 15.0
+        },
+        {
+            "start": { "x": 3.0, "y": 2.0, "z": 1.0 },
+            "direction": { "azimuth": 60.0, "elevation": 20.0 },
+            "distance": 18.0
+        },
+        {
+            "start": { "x": -3.0, "y": -2.0, "z": -1.0 },
+            "direction": { "azimuth": 240.0, "elevation": -20.0 },
+            "distance": 18.0
+        },
+        {
+            "start": { "x": 1.0, "y": 3.0, "z": 2.0 },
+            "direction": { "azimuth": 90.0, "elevation": 30.0 },
+            "distance": 20.0
+        },
+        {
+            "start": { "x": -1.0, "y": -3.0, "z": -2.0 },
+            "direction": { "azimuth": 270.0, "elevation": -30.0 },
+            "distance": 20.0
+        }
+    ]
+}
