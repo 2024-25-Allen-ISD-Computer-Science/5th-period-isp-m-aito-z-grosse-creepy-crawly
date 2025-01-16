@@ -1,9 +1,12 @@
+// set up
+
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+// dynamic json pull
 async function pullStuff(){
     try {
         const response = await fetch('data.json');
@@ -16,9 +19,10 @@ async function pullStuff(){
     }
 }
 
+
 async function processStuff(json) {
     try {
-        for (const value of json) {
+        for (const value of json) { // over each object
             distance(value);
         }
     } catch (err) {
@@ -26,16 +30,6 @@ async function processStuff(json) {
     }
 }
 
-function DegToRad (deg) {
-    return deg * (Math.PI / 180);
-}
-
-// function for points, use Promise.all()
-function points(fufilled) {
-    ctx.fillRect(fufilled['x-axis'], fufilled['y-axis'], 5, 5);
-}
-
-// function for distance
 
 function distance(fufilled) {
     // ctx.beginPath();
@@ -46,8 +40,8 @@ function distance(fufilled) {
     ctx.fillStyle = "#ed0722";
     ctx.fillRect(fufilled['x-axis'], fufilled['y-axis'], 5, 5); // beginning point of distance
     ctx.fillStyle = "#000000";
-    ctx.fillRect(fufilled['x-axis'] + (fufilled['length'] * Math.cos(DegToRad(fufilled['angle']))), // end point
-     fufilled['y-axis'] + (fufilled['length'] * Math.sin(DegToRad(fufilled['angle']))),5, 5);
+    ctx.fillRect(fufilled['x-axis'] + (fufilled['length'] * Math.cos(fufilled['angle'])), // end point
+     fufilled['y-axis'] + (fufilled['length'] * Math.sin(fufilled['angle'])),5, 5);
 }
 
 
