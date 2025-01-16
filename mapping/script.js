@@ -19,13 +19,7 @@ async function pullStuff(){
 async function processStuff(json) {
     try {
         for (const value of json) {
-            if(value['type'] === 'point'){
-                points(value);
-            } else if (value['type'] === 'distance'){
-                distance(value);
-            } else {
-                console.log('to be cont');
-            }
+            distance(value);
         }
     } catch (err) {
         ctx.fillText (err, 30, 40);
@@ -38,19 +32,24 @@ function DegToRad (deg) {
 
 // function for points, use Promise.all()
 function points(fufilled) {
-    ctx.fillRect(fufilled['x-axis'], fufilled['y-axis'], 10, 10);
+    ctx.fillRect(fufilled['x-axis'], fufilled['y-axis'], 5, 5);
 }
 
 // function for distance
 
 function distance(fufilled) {
-    ctx.beginPath();
-    ctx.moveTo(fufilled['x-axis'], fufilled['y-axis']);
-    ctx.lineTo(fufilled['x-axis'] + (fufilled['length'] * Math.cos(DegToRad(fufilled['angle']))),
-     fufilled['y-axis'] + (fufilled['length'] * Math.sin(DegToRad(fufilled['angle']))));
-    ctx.stroke();
+    // ctx.beginPath();
+    // ctx.moveTo(fufilled['x-axis'], fufilled['y-axis']);
+    // ctx.lineTo(fufilled['x-axis'] + (fufilled['length'] * Math.cos(DegToRad(fufilled['angle']))),
+    //  fufilled['y-axis'] + (fufilled['length'] * Math.sin(DegToRad(fufilled['angle']))));
+    // ctx.stroke();
+    ctx.fillStyle = "#ed0722";
+    ctx.fillRect(fufilled['x-axis'], fufilled['y-axis'], 5, 5); // beginning point of distance
+    ctx.fillStyle = "#000000";
+    ctx.fillRect(fufilled['x-axis'] + (fufilled['length'] * Math.cos(DegToRad(fufilled['angle']))), // end point
+     fufilled['y-axis'] + (fufilled['length'] * Math.sin(DegToRad(fufilled['angle']))),5, 5);
 }
-// function for angles
+
 
 
 
